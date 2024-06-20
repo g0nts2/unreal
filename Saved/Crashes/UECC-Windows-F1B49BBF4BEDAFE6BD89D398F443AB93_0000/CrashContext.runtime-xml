@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>8E72870543E019E9C5D5D0BD7E4C38A8</ExecutionGuid>
+		<CrashGUID>UECC-Windows-F1B49BBF4BEDAFE6BD89D398F443AB93_0000</CrashGUID>
+		<IsEnsure>true</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<ErrorMessage>Ensure condition failed: LocalState.GetWriterThreadId() == CurrentThreadId [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Misc\MTAccessDetector.h] [Line: 589] Data race detected: acquiring write access on thread 26432 concurrently with 1 writers on thread 29620: Current thread 26432 callstack: 0x00007ffe94e3ad40 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffe95a50f2a UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffe94e1bf34 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffe95228f7b UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffe95222154 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffe95221ff3 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffe95254dfd UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffed9bb87ee UnrealEditor-Projects.dll!UnknownFunction [] 0x00007ffed9bd56c3 UnrealEditor-Projects.dll!UnknownFunction [] 0x00007ffed9bb801a UnrealEditor-Projects.dll!UnknownFunction [] 0x00007ff7f7022463 UnrealEditor.exe!UnknownFunction [] 0x00007ff7f702634f UnrealEditor.exe!UnknownFunction [] 0x00007ff7f701cfb6 UnrealEditor.exe!UnknownFunction [] 0x00007ff7f701d37a UnrealEditor.exe!UnknownFunction [] 0x00007ff7f7020854 UnrealEditor.exe!UnknownFunction [] 0x00007ff7f7036984 UnrealEditor.exe!UnknownFunction [] 0x00007ff7f7039d7a UnrealEditor.exe!UnknownFunction [] 0x00007ffef26d257d KERNEL32.DLL!UnknownFunction [] 0x00007ffef334af28 ntdll.dll!UnknownFunction [] Writer thread 29620 callstack: 0x00007ffef3390024 ntdll.dll!UnknownFunction [] 0x00007ffef0cb952e KERNELBASE.dll!UnknownFunction [] 0x00007ffe954a258e UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffe94e5e1bb UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffe94e60a77 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffe94e28b60 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffe9500f773 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffe95444e32 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffe95438667 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffef26d257d KERNEL32.DLL!UnknownFunction [] Stack</ErrorMessage>
+		<CrashReporterMessage />
+		<AttendedStatus>Attended</AttendedStatus>
+		<ProcessId>17520</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsWithDebugInfo>true</IsWithDebugInfo>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-miro</GameName>
+		<ExecutableName>UnrealEditor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>WindowsEditor</PlatformName>
+		<PlatformFullName>Win64 [Windows 11 (23H2) [10.0.22631.3737]  64b]</PlatformFullName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.3.2-29314046+++UE5+Release-5.3</EngineVersion>
+		<EngineCompatibleVersion>5.3.2-29314046+++UE5+Release-5.3</EngineCompatibleVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>ko-KR</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.3-CL-29314046</BuildVersion>
+		<Symbols>**UE5*Release-5.3-CL-29314046-Win64-Development</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>B:/Program Files/Epic Games/UE_5.3/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>B:/Program Files/Epic Games/UE_5.3/</RootDir>
+		<MachineId>CD26943A40475C1E85BCB4A64F3AE431</MachineId>
+		<LoginId>cd26943a40475c1e85bcb4a64f3ae431</LoginId>
+		<EpicAccountId>47653f045b9f42dab5fef258f28e832a</EpicAccountId>
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>AMD Ryzen 5 5625U with Radeon Graphics</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>AMD Radeon (TM) Graphics</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 11 (23H2) [10.0.22631.3737]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>15919931392</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>31839862784</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>15</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>8277704704</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>17864544256</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1227427840</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1227436032</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>1483923456</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1483964416</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>7</NumMinidumpFramesToIgnore>
+		<CallStack>UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Projects
+UnrealEditor_Projects
+UnrealEditor_Projects
+UnrealEditor
+UnrealEditor
+UnrealEditor
+UnrealEditor
+UnrealEditor
+UnrealEditor
+UnrealEditor
+kernel32
+ntdll</CallStack>
+		<PCallStack>UnrealEditor-Core 0x00007ffe94dc0000 + 5bf34 UnrealEditor-Core 0x00007ffe94dc0000 + 468f7b UnrealEditor-Core 0x00007ffe94dc0000 + 462154 UnrealEditor-Core 0x00007ffe94dc0000 + 461ff3 UnrealEditor-Core 0x00007ffe94dc0000 + 494dfd UnrealEditor-Projects 0x00007ffed9b80000 + 387ee UnrealEditor-Projects 0x00007ffed9b80000 + 556c3 UnrealEditor-Projects 0x00007ffed9b80000 + 3801a UnrealEditor 0x00007ff7f6ff0000 + 32463 UnrealEditor 0x00007ff7f6ff0000 + 3634f UnrealEditor 0x00007ff7f6ff0000 + 2cfb6 UnrealEditor 0x00007ff7f6ff0000 + 2d37a UnrealEditor 0x00007ff7f6ff0000 + 30854 UnrealEditor 0x00007ff7f6ff0000 + 46984 UnrealEditor 0x00007ff7f6ff0000 + 49d7a KERNEL32 0x00007ffef26c0000 + 1257d ntdll 0x00007ffef32f0000 + 5af28</PCallStack>
+		<PCallStackHash>1F8DC4BC0DED64BDCBF945F1D1E9F6DDA1BFC741</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>KERNELBASE 0x00007ffef0c80000 + 5f39c UnrealEditor-Core 0x00007ffe94dc0000 + 6038f8 UnrealEditor-Core 0x00007ffe94dc0000 + 60372b UnrealEditor-Core 0x00007ffe94dc0000 + 3a64a7 UnrealEditor-Core 0x00007ffe94dc0000 + 3bf325 UnrealEditor-Core 0x00007ffe94dc0000 + c996f2 UnrealEditor-Core 0x00007ffe94dc0000 + c90fa8 UnrealEditor-Core 0x00007ffe94dc0000 + 5bf34 UnrealEditor-Core 0x00007ffe94dc0000 + 468f7b UnrealEditor-Core 0x00007ffe94dc0000 + 462154 UnrealEditor-Core 0x00007ffe94dc0000 + 461ff3 UnrealEditor-Core 0x00007ffe94dc0000 + 494dfd UnrealEditor-Projects 0x00007ffed9b80000 + 387ee UnrealEditor-Projects 0x00007ffed9b80000 + 556c3 UnrealEditor-Projects 0x00007ffed9b80000 + 3801a UnrealEditor 0x00007ff7f6ff0000 + 32463 UnrealEditor 0x00007ff7f6ff0000 + 3634f UnrealEditor 0x00007ff7f6ff0000 + 2cfb6 UnrealEditor 0x00007ff7f6ff0000 + 2d37a UnrealEditor 0x00007ff7f6ff0000 + 30854 UnrealEditor 0x00007ff7f6ff0000 + 46984 UnrealEditor 0x00007ff7f6ff0000 + 49d7a KERNEL32 0x00007ffef26c0000 + 1257d ntdll 0x00007ffef32f0000 + 5af28</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>26432</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638544337184830000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<CPUBrand>AMD Ryzen 5 5625U with Radeon Graphics</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-WorkspaceMenuStructure.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AutomationTest.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AutomationMessages.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AutomationController.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-FunctionalTesting.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AIGraph.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GameplayTasksEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Overlay.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-BehaviorTreeEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-StringTableEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-OverlayEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ClothingSystemRuntimeNv.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ClothingSystemEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnimationDataController.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\AndroidFileServer\Binaries\Win64\UnrealEditor-AndroidFileServer.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\WebMMoviePlayer\Binaries\Win64\UnrealEditor-WebMMoviePlayer.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64\UnrealEditor-WindowsMoviePlayer.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-WorldPartitionEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Media\WebMMedia\Binaries\Win64\UnrealEditor-WebMMedia.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\EnhancedInput\Binaries\Win64\UnrealEditor-EnhancedInput.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\EnhancedInput\Binaries\Win64\UnrealEditor-InputEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\EnhancedInput\Binaries\Win64\UnrealEditor-InputBlueprintNodes.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\2D\Paper2D\Binaries\Win64\UnrealEditor-Paper2D.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Media\ImgMedia\Binaries\Win64\UnrealEditor-ImgMediaEngine.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\AudioSynesthesia\Binaries\Win64\UnrealEditor-AudioSynesthesiaCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioAnalyzer.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\AudioSynesthesia\Binaries\Win64\UnrealEditor-AudioSynesthesia.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\CableComponent\Binaries\Win64\UnrealEditor-CableComponent.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\CustomMeshComponent\Binaries\Win64\UnrealEditor-CustomMeshComponent.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\LocationServicesBPLibrary\Binaries\Win64\UnrealEditor-LocationServicesBPLibrary.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor-MetasoundGraphCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Serialization.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor-MetasoundFrontend.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor-MetasoundGenerator.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor-MetasoundStandardNodes.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioCodecEngine.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\WaveTable\Binaries\Win64\UnrealEditor-WaveTable.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor-MetasoundEngine.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor-MetasoundEngineTest.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AdvancedWidgets.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\AudioWidgets\Binaries\Win64\UnrealEditor-AudioWidgets.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor-MetasoundEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\MsQuic\Binaries\Win64\UnrealEditor-MsQuicRuntime.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\ProceduralMeshComponent\Binaries\Win64\UnrealEditor-ProceduralMeshComponent.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor.exe
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\ThirdParty\ShaderConductor\Win64\ShaderConductor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-UMGEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Persona.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SlateReflector.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\ThirdParty\ShaderConductor\Win64\dxcompiler.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\ThirdParty\ShaderConductor\Win64\dxil.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ShaderFormatD3D.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CollisionAnalyzer.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Experimental\ProxyLODPlugin\Binaries\Win64\UnrealEditor-ProxyLODMeshReduction.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MetalShaderFormat.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-VulkanShaderFormat.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ShaderFormatOpenGL.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ShaderFormatVectorVM.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-VectorVM.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ShaderPreprocessor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ShaderCompilerCommon.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-FileUtilities.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioFormatBink.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioFormatADPCM.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioFormatOgg.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioFormatOpus.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-WindowsTargetPlatform.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CookedEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\IOS\UnrealEditor-TVOSTargetPlatform.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MacTargetPlatform.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\Linux\UnrealEditor-LinuxTargetPlatform.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\oo2tex_win64_2.9.10.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\oo2tex_win64_2.9.9.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\oo2tex_win64_2.9.8.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\oo2tex_win64_2.9.7.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\oo2tex_win64_2.9.6.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\LinuxArm64\UnrealEditor-LinuxArm64TargetPlatform.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\IOS\UnrealEditor-IOSTargetPlatform.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\Android\UnrealEditor-AndroidTargetPlatform.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Developer\TextureFormatOodle\Binaries\Win64\UnrealEditor-TextureFormatOodle.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureFormatUncompressed.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\D3D12\D3D12Core.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureFormatIntelISPCTexComp.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureFormatETC2.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureFormatASTC.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TurnkeySupport.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-LauncherServices.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TargetPlatform.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureFormatDXT.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureBuild.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Settings.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-WindowsPlatformFeatures.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GameplayMediaEncoder.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-D3D12RHI.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Enterprise\GLTFExporter\Binaries\Win64\UnrealEditor-GLTFExporter.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureFormat.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AVEncoder.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-RHICore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Developer\RenderDocPlugin\Binaries\Win64\UnrealEditor-RenderDocPlugin.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Developer\PixWinPlugin\Binaries\Win64\UnrealEditor-PixWinPlugin.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshMergeUtilities.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Enterprise\DatasmithContent\Binaries\Win64\UnrealEditor-DatasmithContent.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Enterprise\VariantManagerContent\Binaries\Win64\UnrealEditor-VariantManagerContent.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\FX\Niagara\Binaries\Win64\UnrealEditor-NiagaraShader.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Experimental\ChaosCloth\Binaries\Win64\UnrealEditor-ChaosCloth.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Portal\LauncherChunkInstaller\Binaries\Win64\UnrealEditor-LauncherChunkInstaller.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\FX\Niagara\Binaries\Win64\UnrealEditor-NiagaraVertexFactories.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\FX\Niagara\Binaries\Win64\UnrealEditor-NiagaraCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\WindowsDeviceProfileSelector\Binaries\Win64\UnrealEditor-WindowsDeviceProfileSelector.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Experimental\ChaosCaching\Binaries\Win64\UnrealEditor-ChaosCaching.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64\UnrealEditor-OnlineSubsystemNull.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64\UnrealEditor-OnlineSubsystemUtils.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-XMPP.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-WebSockets.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Online\OnlineServices\Binaries\Win64\UnrealEditor-OnlineServicesCommon.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64\UnrealEditor-PerforceSourceControl.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\ChunkDownloader\Binaries\Win64\UnrealEditor-ChunkDownloader.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Voice.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64\UnrealEditor-OnlineSubsystem.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Online\OnlineServices\Binaries\Win64\UnrealEditor-OnlineServicesInterface.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64\UnrealEditor-ExampleDeviceProfileSelector.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64\UnrealEditor-OnlineBlueprintSupport.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Animation\ACLPlugin\Binaries\Win64\UnrealEditor-ACLPlugin.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Media\WmfMedia\Binaries\Win64\UnrealEditor-WmfMedia.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\ThirdParty\Python3\Win64\python39.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Developer\PlasticSourceControl\Binaries\Win64\UnrealEditor-PlasticSourceControl.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\UnrealEditor-PlatformCryptoOpenSSL.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnimationModifiers.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\ThirdParty\libsndfile\Win64\libsndfile-1.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MessageLog.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Virtualization.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-S3Client.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Online\OnlineServices\Binaries\Win64\UnrealEditor-OnlineServicesCommonEngineUtils.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Online\OnlineBase\Binaries\Win64\UnrealEditor-OnlineBase.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\AI\AISupport\Binaries\Win64\UnrealEditor-AISupportModule.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Media\WmfMedia\Binaries\Win64\UnrealEditor-WmfMediaFactory.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Media\ImgMedia\Binaries\Win64\UnrealEditor-ExrReaderGpu.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\XGEController\Binaries\Win64\UnrealEditor-XGEController.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SlateRHIRenderer.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-NetworkFile.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SequenceRecorder.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Experimental\PythonScriptPlugin\Binaries\Win64\UnrealEditor-PythonScriptPluginPreload.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-StorageServerClient.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DataflowCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AVIWriter.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-LiveLinkInterface.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GameplayDebugger.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ChaosSolverEngine.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-FieldSystemEngine.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshConversion.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SequencerWidgets.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MovieSceneCapture.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MovieSceneTools.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SequencerCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ContentBrowser.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-VirtualTexturingEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioSettingsEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ComponentVisualizers.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AIModule.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\OpenColorIO_2_2.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\FastBuildController\Binaries\Win64\UnrealEditor-FastBuildController.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GameplayTasks.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ConfigEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DetailCustomizations.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DataflowEngine.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DesktopWidgets.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GeometryCollectionEngine.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\UnrealEditor-PlatformCrypto.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-InternationalizationSettings.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ContentBrowserData.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Navmesh.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-IoStoreOnDemand.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Sequencer.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\UnrealEditor-PlatformCryptoTypes.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshBuilderCommon.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-HeadMountedDisplay.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Constraints.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnimationCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnimationBlueprintLibrary.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ClassViewer.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-UnsavedAssetsTracker.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DerivedDataEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CommonMenuExtensions.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SourceControlWindows.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EditorConfig.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EditorStyle.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-StreamingFile.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AdvancedPreviewScene.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SceneOutliner.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnimGraphRuntime.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-KismetCompiler.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-KismetWidgets.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GeometryCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MediaAssets.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-UELibSampleRate.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SerializedRecorderInterface.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Voronoi.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MaterialBaking.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PropertyPath.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshUtilitiesEngine.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Renderer.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-WidgetRegistration.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AssetTools.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ToolWidgets.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PhysicsUtilities.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SubobjectDataInterface.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-InterchangeCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-StatusBar.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SharedSettingsWidgets.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-InteractiveToolsFramework.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-InterchangeEngine.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-NavigationSystem.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Localization.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-BlueprintGraph.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SourceControl.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SubobjectEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TraceServices.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-IoStoreUtilities.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-VREditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MovieSceneTracks.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MovieScene.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GameProjectGeneration.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-LevelEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GraphEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PropertyEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MaterialEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ImageWrapper.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\libfbxsdk.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-UncontrolledChangelists.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TraceAnalysis.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Chaos.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Kismet.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EditorFramework.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EditorInteractiveToolsFramework.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnimGraph.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-UnrealEd.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Engine.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DirectoryWatcher.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ToolMenus.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ViewportInteraction.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Cbor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PakFileUtilities.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PIEPreviewDeviceSpecification.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-HardwareTargeting.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AddContentDialog.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-FoliageEdit.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Foliage.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TimeManagement.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EditorWidgets.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SSL.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PIEPreviewDeviceProfileSelector.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-HTTP.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CurveEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-WidgetCarousel.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-BuildPatchServices.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-IrisCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SignalProcessing.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-UMG.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Landscape.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AppFramework.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DerivedDataCache.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SlateCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Slate.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-RenderCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Core.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SceneDepthPickerMode.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Zen.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CoreUObject.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ClothingSystemRuntimeCommon.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshUtilitiesCommon.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ActorPickerMode.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnimationEditMode.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PhysicsCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-StatsViewer.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AssetRegistry.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshBuilder.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-HierarchicalLODUtilities.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureUtilitiesCommon.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-VirtualFileCache.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DataLayerEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioMixer.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EventLoop.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ChaosCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SkeletalMeshUtilitiesCommon.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CinematicCamera.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshDescription.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PakFile.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Networking.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-StaticMeshDescription.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-RSA.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-LevelSequence.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-BlueprintEditorLibrary.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GameplayTags.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TelemetryUtils.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-BSPUtils.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AssetTagsEditor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioExtensions.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-NetCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ImageWriteQueue.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-RHI.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnalyticsET.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MaterialUtilities.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-JsonUtilities.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-OpenColorIOWrapper.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SkeletalMeshDescription.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Sockets.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioLinkEngine.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ReliabilityHandlerComponent.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureCompressor.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AssetDefinition.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MaterialShaderQualitySettings.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TypedElementFramework.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ClothingSystemRuntimeInterface.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SoundFieldRendering.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Json.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DeveloperToolSettings.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CookOnTheFly.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EditorSubsystem.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-UnrealEdMessages.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Icmp.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Analytics.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SandboxFile.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ScriptDisassembler.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DesktopPlatform.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SwarmInterface.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-IESFile.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CookMetadata.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Media.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DeveloperSettings.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureBuildUtilities.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioLinkCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-NetworkReplayStreaming.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MRMesh.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Messaging.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\oo2tex_win64_2.9.5.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PacketHandler.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-LiveCoding.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MediaUtils.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EngineSettings.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ImageCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-NaniteBuilder.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Experimental\SkeletalReduction\Binaries\Win64\UnrealEditor-SkeletalMeshReduction.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioPlatformConfiguration.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ScriptableEditorWidgets.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-FieldNotification.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ApplicationCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Projects.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-InputCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-LandscapeEditorUtilities.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-NaniteUtilities.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EngineMessages.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\tbb.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-InstallBundleManager.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SourceCodeAccess.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CoreOnline.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PreLoadScreen.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ClothingSystemEditorInterface.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-QuadricMeshReduction.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-RawMesh.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TypedElementRuntime.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshBoneReduction.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-XmlParser.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ColorManagement.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshUtilities.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PinnedCommandList.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioMixerCore.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GeometryProcessingInterfaces.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\ThirdParty\Python3\Win64\python3.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EditorAnalyticsSession.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\ThirdParty\Windows\WinPixEventRuntime\x64\WinPixEventRuntime.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\tbbmalloc.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MoviePlayer.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TraceLog.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshReductionInterface.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TargetDeviceServices.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Horde.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-BuildSettings.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-NullInstallBundleManager.dll
+B:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MoviePlayerProxy.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>true</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsEditorNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>true</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+		<RHI.DRED>false</RHI.DRED>
+		<RHI.DREDMarkersOnly>true</RHI.DREDMarkersOnly>
+		<RHI.DREDContext>false</RHI.DREDContext>
+		<RHI.Aftermath>false</RHI.Aftermath>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>AMD Radeon (TM) Graphics</RHI.AdapterName>
+		<RHI.UserDriverVersion>AMD Software: Adrenalin Edition 23.10.24.05</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>31.0.21024.5005</RHI.InternalDriverVersion>
+		<RHI.DriverDate>9-5-2023</RHI.DriverDate>
+		<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+		<RHI.GPUVendor>AMD</RHI.GPUVendor>
+		<RHI.DeviceId>15E7</RHI.DeviceId>
+		<DeviceProfile.Name>WindowsEditor</DeviceProfile.Name>
+	</EngineData>
+	<GameData />
+</FGenericCrashContext>
